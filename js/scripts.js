@@ -37,5 +37,7 @@ $(document).ready(function () {
       pullDrag: !0,
       nav: !0,
       navText: "",
+      autoplay: true, // Включаем автопрокрутку
+      autoplayTimeout: 7000, // Устанавливаем время между прокрутками в миллисекундах (в данном случае 5 секунд)
     });
 });
